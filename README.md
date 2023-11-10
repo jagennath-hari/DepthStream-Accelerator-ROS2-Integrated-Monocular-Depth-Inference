@@ -9,3 +9,6 @@ DepthStream Accelerator: A TensorRT-optimized monocular depth estimation tool wi
 5) Miniconda ([Official Link](https://docs.conda.io/en/main/miniconda.html))
 6) ROS 2 Humble ([Official Link](https://docs.ros.org/en/humble/Installation.html))
 7) ZoeDepth ([Official Link](https://github.com/isl-org/ZoeDepth))
+
+## ⚙️ Creating the Engine File
+~cd ~
