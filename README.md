@@ -2,7 +2,7 @@
 DepthStream Accelerator: A TensorRT-optimized monocular depth estimation tool with ROS2 integration for C++. It offers high-speed, accurate depth perception, perfect for real-time applications in robotics, autonomous vehicles, and interactive 3D environments.
 
 ## 🏁 Dependencies
-1) NVIDIA Driver ([Official Download Link](https://www.nvidia.com/download/index.aspx))
+1) NVIDIA Driver ([Official Link](https://www.nvidia.com/download/index.aspx))
 2) CUDA Toolkit ([Official Link](https://developer.nvidia.com/cuda-downloads))
 3) cuDNN ([Official Link](https://developer.nvidia.com/cudnn))
 4) TensorRT ([Official Link](https://developer.nvidia.com/tensorrt))
