@@ -29,14 +29,14 @@ Once you have the `.onnx` file created go into the tensorRT trtexec directory. M
 `ros2 launch monocular_depth mono_depth.launch.py trt_path:=zoedepth_nk.trt image_topic:=/rgb/image_rect_color gui:=false` *Without GUI*.
 #### GUI
 <div align="center">
-    <img src="assets/depth.gif" alt="SLAM" width="700"/>
+    <img src="assets/depth.gif" alt="SLAM" width="800"/>
     <p>DEPTH MAP</p>
 </div>
 
 ## 💬 ROS2 Message
 The depth map gets published as `sensor_msg/Image` in the `/mono_depth/depthMap` topic
 <div align="center">
-    <img src="assets/rviz.png" alt="SLAM" width="700"/>
+    <img src="assets/rviz.png" alt="SLAM" width="800"/>
 </div>
 
 It can also be visualized in RVIZ2.
