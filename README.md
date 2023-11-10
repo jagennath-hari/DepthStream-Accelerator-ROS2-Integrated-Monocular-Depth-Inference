@@ -13,3 +13,5 @@ DepthStream Accelerator: A TensorRT-optimized monocular depth estimation tool wi
 ## ⚙️ Creating the Engine File
 ### ONNX File
 Create the onnx file `cd monocular_depth/scripts/ZoeDepth/ && python trt_convert.py`. The ONNX file gets saved in the working directory as `zoe_nk.onnx`, configure the input dimensions as per your input image dimensions (h, w).
+### TensorRT engine creation
+Once you have the `.onnx` file created go into the tensorRT trtexec directory. Mostly this is `cd /usr/src/tensorrt/bin/`. Now it is time to create the engine file, this could take a few minutes to create.
