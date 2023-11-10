@@ -16,3 +16,5 @@ Create the onnx file `cd monocular_depth/scripts/ZoeDepth/ && python trt_convert
 ### TensorRT engine creation
 Once you have the `.onnx` file created go into the tensorRT trtexec directory. Mostly this is `cd /usr/src/tensorrt/bin/`. Now it is time to create the engine file, this could take a few minutes to create. Run the command below,
 `./trtexec --onnx=zoe_nk.onnx --builderOptimizationLevel=3 --useSpinWait --useRuntime=full --useCudaGraph --precisionConstraints=obey --allowGPUFallback --tacticSources=+CUBLAS,+CUDNN,+JIT_CONVOLUTIONS,+CUBLAS_LT --inputIOFormats=fp32:chw --outputIOFormats=fp32:chw --sparsity=enable --layerOutputTypes=fp32 --layerPrecisions=fp32 --saveEngine=zoe_nk.trt`
+
+## 🤖 Running Depth Estimation
