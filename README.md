@@ -35,3 +35,8 @@ Once you have the `.onnx` file created go into the tensorRT trtexec directory. M
 
 ## 💬 ROS2 Message
 The depth map gets published as `sensor_msg/Image` in the `/mono_depth/depthMap` topic
+<div align="center">
+    <img src="assets/rviz.png" alt="SLAM" width="700"/>
+</div>
+
+It can also be visualized in RVIZ2.
