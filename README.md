@@ -19,4 +19,4 @@ Once you have the `.onnx` file created go into the tensorRT trtexec directory. M
 
 ## 🖼️ Running Depth Estimation
 ### Build the ROS2 workspace
-`cd `
+`colcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release --parallel-workers $(nproc)`
