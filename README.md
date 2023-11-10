@@ -11,4 +11,4 @@ DepthStream Accelerator: A TensorRT-optimized monocular depth estimation tool wi
 7) ZoeDepth ([Official Link](https://github.com/isl-org/ZoeDepth))
 
 ## ⚙️ Creating the Engine File
-~cd ~
+`cd monocular_depth/scripts/ZoeDepth/ && python trt_convert.py`
