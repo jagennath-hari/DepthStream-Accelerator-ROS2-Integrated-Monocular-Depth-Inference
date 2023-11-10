@@ -39,3 +39,6 @@ The depth map gets published as `sensor_msg/Image` in the `/mono_depth/depthMap`
     <img src="assets/rviz.png" alt="SLAM" width="800"/>
 </div>
 
+## ⚠️ Note
+1) There is a know problem with MiDAS which doesnt allow tracing the network.
+2) If the input image dimensions are changed, change the source code to match your image dimension inputs.
