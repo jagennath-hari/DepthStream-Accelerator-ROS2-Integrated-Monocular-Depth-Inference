@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Hari"
+  given-names: "Jagennath"
+title: "DepthStream-Accelerator-ROS2-Integrated-Monocular-Depth-Inference"
+version: 1.0.0
+date-released: 2023-11-10
+url: "https://github.com/jagennath-hari/DepthStream-Accelerator-ROS2-Integrated-Monocular-Depth-Inference"
