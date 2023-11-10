@@ -20,3 +20,7 @@ Once you have the `.onnx` file created go into the tensorRT trtexec directory. M
 ## 🖼️ Running Depth Estimation
 ### Build the ROS2 workspace
 `colcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release --parallel-workers $(nproc)`
+
+### Inference
+`ros2 launch monocular_depth mono_depth.launch.py trt_path:=zoedepth_nk.trt image_topic:=/rgb/image_rect_color gui:=true` *With GUI*.
+`ros2 launch monocular_depth mono_depth.launch.py trt_path:=zoedepth_nk.trt image_topic:=/rgb/image_rect_color gui:=false` *Without GUI*.
