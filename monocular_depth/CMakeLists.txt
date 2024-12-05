@@ -65,13 +65,6 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-# Install Python scripts if necessary
-install(
-  PROGRAMS
-    scripts/estimate_depth.py
-  DESTINATION lib/${PROJECT_NAME}
-)
-
 install(DIRECTORY
   launch
   DESTINATION share/${PROJECT_NAME}/
